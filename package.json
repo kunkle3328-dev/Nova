@@ -1,0 +1,19 @@
+{
+  "name": "novacode",
+  "version": "0.1.0",
+  "description": "Prototype scaffold for the NovaCode AI coding agent.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "backend": "node backend/server.js"
+  },
+  "dependencies": {
+    "electron": "^24.2.0",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
